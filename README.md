@@ -1,4 +1,4 @@
-# NextjsDocusaurusIntegration
+# Nextjs Docusaurus Integration
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
@@ -7,7 +7,7 @@
 
 ## Start the app
 
-To start the development server run `nx serve nextjs`. Open your browser and navigate to http://localhost:4200/. Happy coding!
+To start the development server run `nx dev <app-name>`. Open your browser and navigate to application port. For running both apps at the same time run `nx run-many -t dev -p nextjs docusaurus`. Happy coding!
 
 
 ## Generate code

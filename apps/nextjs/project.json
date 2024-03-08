@@ -18,12 +18,13 @@
         "production": {}
       }
     },
-    "serve": {
+    "dev": {
       "executor": "@nx/next:server",
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "nextjs:build",
-        "dev": true
+        "dev": true,
+        "port": 3001
       },
       "configurations": {
         "development": {

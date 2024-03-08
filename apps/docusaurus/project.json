@@ -1,0 +1,8 @@
+{
+  "name": "docusaurus",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/docusaurus",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
